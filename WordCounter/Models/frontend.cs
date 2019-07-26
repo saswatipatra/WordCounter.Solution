@@ -9,11 +9,13 @@ namespace wordCounter
     {
         public static void Main()
         {
-            Console.WriteLine("enter a number");
-            int anything = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter the sentance: ");
+            string sentance = Console.ReadLine();
+            Console.WriteLine("enter the word you are looking for: ");
+            string word = Console.ReadLine();
             Item newItem = new Item();
-            // string print= newItem.conversion(anything);
-            // Console.WriteLine(print);
+            int count = newItem.WordCounterFunction(word,sentance);
+            Console.WriteLine(count);
         }
     }
 }
