@@ -3,8 +3,13 @@ using System.Collections.Generic;
 
 namespace wordCounter
 {
-public class Item
+public class RepeatCounter
 {
+  public bool IsNull_Empty_true(String str)
+  {
+    return (str == null || str == String.Empty) ? true : false;
+  }
+
   public int WordCounterFunction (string word, string sentance)
   {
     int counter=0;
