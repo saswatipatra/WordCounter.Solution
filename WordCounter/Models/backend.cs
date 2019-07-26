@@ -5,12 +5,18 @@ namespace wordCounter
 {
 public class Item
 {
-  public static Dictionary<int,string> UnitNum = new Dictionary<int,string>() { {0,"Zero"},{1,"One"}};
-
-  public string function1 ()
+  public int WordCounterFunction (string word; string sentance)
   {
-
-
+    int counter=0;
+    string[] wordArry= sentance.Split(' ');
+    for (int i=0; i<wordArry.Length; i++)
+      {
+        if (wordArry[i]==word)
+        {
+          counter++;
+        }
+      }
+      return counter;
   }
 }
 }
