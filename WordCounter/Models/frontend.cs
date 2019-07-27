@@ -1,7 +1,5 @@
 using System;
-using System.Collections.Generic;
 using wordCounter;
-
 
 namespace wordCounter
 {
@@ -35,6 +33,5 @@ namespace wordCounter
               }
             }
         }
-
     }
 }

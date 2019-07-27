@@ -1,8 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using wordCounter;
-using System.Collections.Generic;
 using System;
-
 
 namespace wordCounter.Test{
     [TestClass]

@@ -11,7 +11,7 @@ On this web site, it will gathers both a word and sentence from a user, then che
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Enter the word and the sentence ** | sentence: I'm walking with my cat. Word: cat | Output: 1|
+| **Enter the word and the sentence** | sentence: I'm walking with my cat. Word: cat | Output: 1|
 | **Enter the word and the sentence** |sentence: I'm walking with my cAt. Word: cat  | Output: 1|
 | **Enter the word and the sentence** |sentence: I'm walking with my cat in the cathedral garden. Word: cat  | Output: 1|
 | **Enter the word and the sentence** |sentence: I'm walking with my cAt, and my cat is running. Word: cat  | Output: 2|
