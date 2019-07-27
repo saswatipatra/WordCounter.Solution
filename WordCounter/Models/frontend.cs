@@ -22,7 +22,17 @@ namespace wordCounter
             else
             {
               int count = newRepeatCounter.WordCounterFunction(word,sentance);
-              Console.WriteLine(count);
+              Console.WriteLine("found the word, number of time it occur: " + count);
+              Console.WriteLine("Would you like to search again(yes/no) ");
+              string userWish = Console.ReadLine();
+              if(userWish=="yes"||userWish=="Yes")
+              {
+                Main();
+              }
+              else
+              {
+                Console.WriteLine("We were glad to have you, you are welcome again, have a good day...");
+              }
             }
         }
 
