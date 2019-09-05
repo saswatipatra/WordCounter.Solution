@@ -17,10 +17,16 @@ On this web site, it will gathers both a word and sentence from a user, then che
 | **Enter the word and the sentence** |sentence: I'm walking with my cAt, and my cat is running. Word: cat  | Output: 2|
 
 ## Setup/Installation Requirements
-*_Clone this repository:https://github.com/saswatipatra/WordCounter.Solution.git_*
-*_Build distribution files: dotnet build_*
-*_Start the file: dotnet run_*
 
+1. Clone this repository:
+    ```
+    $ git clone https://github.com/saswatipatra/WordCounter.Solution.git
+    ```
+2. Run the application
+    ```
+    $ Build distribution files: dotnet build
+    $ Start the file: dotnet run
+  ```
 
 ## Known Bugs
 * No known bugs at this time.
