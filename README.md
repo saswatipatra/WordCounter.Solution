@@ -26,13 +26,13 @@ On this web site, it will gathers both a word and sentence from a user, then che
     ```
     $ Build distribution files: dotnet build
     $ Start the file: dotnet run
-  ```
+    ```
 
 ## Known Bugs
 * No known bugs at this time.
 
 ## Technologies Used
-* C#
+* C# / .NET
 
 ## Support and contact details
 
